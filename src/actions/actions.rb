@@ -82,7 +82,7 @@ module Actions
         when Model::Direction::RIGHT
             return true if direction != Model::Direction::LEFT
         when  Model::Direction::LEFT
-            return true if direction != Model::Direction::RIGH
+            return true if direction != Model::Direction::RIGHT
         end
 
         return false
